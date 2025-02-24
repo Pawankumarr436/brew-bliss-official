@@ -1,0 +1,60 @@
+@media(max-width:450px){
+    .img{
+        height:40px;
+        width:40px;
+    }
+    h3.fontfamily{
+        font-size:larger;
+    }
+    p.fontfamily2{
+        font-size: small;
+    }
+}
+@media(max-width:795px){
+    img.roundborder
+    {
+        height: 500px;
+        width:350px;
+    }
+}
+@media(max-width:580px){
+    .aboutcafe{
+        height: 1100px;
+        width: 100%;
+       
+    }
+    .aboutchild2{
+        display:flex;
+        flex-direction: column;
+        height: 900px;
+        padding: 0px;
+  
+    }
+    .about2{
+        margin: 35px;
+        height: 200px;
+        width:300px;
+       
+        
+    }
+    #about2{
+        margin-top:0px;
+        height: 620px;
+        width: 340px;
+        margin-left:20px ;
+        
+    }
+    div.about1{
+        height: 170px;
+    }
+    #about{
+        margin-top: 5px;
+        height: 700px;
+        width: 350px;
+        margin: 10px;
+    }
+
+    
+   
+
+}

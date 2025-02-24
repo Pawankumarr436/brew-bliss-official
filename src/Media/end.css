@@ -1,0 +1,48 @@
+@media(max-width:1055px){
+    h4.fontfamilyshadow{
+        font-size: medium;
+    }
+    img.cafelogo1{
+        height: 200px;
+        width:200px
+    }
+    p.fontfamilyshadow2{
+        font-size: small;
+    }
+    h4.fontfamilyshadow2{
+        font-size: small;
+    }
+    #inputPassword41{
+        height:35px;
+        width:100px;
+    }
+}
+@media(max-width:770px){
+    div.end1{
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        padding: 0%;
+    }
+    div.end1child{
+        padding: 0px;
+        margin-top:2px ;
+        margin: 0px;
+    }
+    #end1childd{
+        height: 700px;
+        padding-left:10px ;
+        padding-top:0%;
+    }
+    #inputPassword41{
+        height:35px;
+        width:250px;
+    }
+    img.cafelogo1{
+        height: 100px;
+        width: 100px;
+    }
+    p.pawan{
+        font-size:small;
+    }
+}

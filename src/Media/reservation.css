@@ -1,0 +1,73 @@
+@media(max-width:983px){
+     .resbanner{
+      height: 150px;
+  
+     }
+     h1.fontfamilyshadow{
+      font-size: medium;
+     }
+     h1.fontfamily{
+      font-size: 30px;
+     }
+     h2.fontfamilyshadow2{
+      font-size: small;
+     }
+     p.fontfamily2{
+      font-size: small;
+     }
+     .form-control{
+      
+      font-size: small;
+      padding:10px;
+
+     }
+     .page5{
+      height:600px;
+     }
+  
+}
+@media(max-width:1045px){
+     input#inputPassword4.form-control{
+          
+          width: 250px;
+     }
+}
+     
+
+@media(max-width:500px){
+     div.resbanner{
+          padding: 20px;
+     }
+     div.page5{
+          height: 1000px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        
+          margin-top: 10px;
+          
+     }
+     img.roundborder{
+          height: 500px;
+          width: 400px;
+
+     }
+     #reschild1{
+          margin-top:-80px;
+     }
+     .reschild{
+          padding: 10px;
+          height: 470px;
+          margin-top: 0px;
+     }
+     div#reschild1.reschild{
+          height:550px;
+     }
+     #roundborder12{
+          height:441px;
+          width: 350px;
+          border-radius: 150px;
+          /*make rounded border style to image */
+  border-bottom-right-radius: 3000px;
+      }
+}

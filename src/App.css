@@ -22,6 +22,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  overflow: hidden;
+  padding: 10px;
 }
 
 .App-link {
@@ -36,3 +38,555 @@
     transform: rotate(360deg);
   }
 }
+
+.frontpage{          /* front page image */
+  height:800px;
+  width: 100%;
+  border:0px solid black; 
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+
+}
+.navbar{             /* adjustment of navbar */
+  width:100%;
+ font-family: cursive;
+ 
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 2;
+  top:5px;
+  left:0px;
+  padding: 10px;
+  overflow: hidden;
+}
+.navbar {
+  
+    --bs-navbar-active-color: rgb(242 238 238);      /*set wite color to menu in navbar*/
+}
+
+
+.navbar-toggler {
+  height: 50px;
+  width: 50px;
+  background: transparent;
+  border:0.5px solid goldenrod;
+  border-radius: 10px;
+  padding: 0px;
+}
+
+.custom-navbar {
+  border-radius: 40px;
+  background-color: rgba(69, 67, 67, 0.549); /* Change the RGBA values for your desired transparency */
+}
+
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+  font-weight: bold;
+  font-size: larger;
+  color: white /* Change text color */
+}
+
+.custom-navbar .nav-link:hover {
+  color: #fff;
+  text-shadow: 2px 2px 10px whitesmoke; /* Change text color on hover */
+}
+/*change color of dropdown menu*/
+
+.custom-navbar .nav-item.disabled .nav-link {
+  color: rgba(255, 255, 255, 0.5); /* Change color for disabled items */
+}
+.dropdown-menu {
+  background-color: rgba(249, 242, 242, 0); /* Semi-transparent background */
+  backdrop-filter: blur(10px); /* Adjust the blur intensity */
+}
+
+.dropdown-menu .dropdown-item {
+ font-family: cursive;
+  color: #ffffff; /* Change text color of dropdown items */
+}
+
+.dropdown-menu .dropdown-item:hover {
+  font-weight:bolder;
+  background-color: rgba(255, 255, 255, 0.5); /* Change background color on hover */
+  color: #000; /* Change text color on hover */
+}
+.form-control{
+  background-color: #00000000;    /*chnage color of searchbar*/
+}
+#searchbtn{
+  
+  border:1px solid gold;
+ font-family: cursive;
+  font-weight: bold;
+  color:white;
+  transition: 1s;       /*change color of search button*/
+}
+#searchbtn:hover{
+  background-color:black;
+  color:gold;        /*change search button hover style*/
+}
+.form-control{
+ font-family: cursive;
+  font-weight: bold;         /*change style of search box*/
+}
+.aboutcafe{
+  height:800px;
+  width:100%;            /*create section for page 2 about cafe section*/
+  border:0px solid black; 
+  background: transparent;
+  overflow: hidden;
+ padding: 10px;
+  overflow: hidden;
+}
+
+.aboutchild1{
+  border:0px solid black; 
+  width:100%;                  /*adjustments of page 2 child div1*/
+  
+  height:200px;
+  background: transparent;
+  display: flex;
+  justify-content: space-evenly;
+  overflow: hidden;
+
+}
+.aboutchild2{
+  border:0px solid black;
+  width:100%;                  /*adjustments of page 2 child div2*/
+  margin-top: 10px;
+  height:560px;
+  background: transparent;
+  display: flex;
+  justify-content:center;
+  overflow: hidden;
+ 
+
+}
+.about1{
+  height:100%;
+  width:400px;              /*page 2 box uper boxes*/
+  border:0px solid black; 
+  padding: 5px;
+  overflow: hidden;
+  
+  
+
+  
+  
+}
+.about2{
+  height:100%;
+  width: 600px;
+  border:0px solid black; 
+  border-top-left-radius: 30px;       /*page 2 bottom boxes*/
+  border-bottom-right-radius: 30px;
+  
+  overflow: hidden;
+
+}
+#about2{
+  margin-left: 30px;             /*page 2 bottom box 2nd */
+  text-align: start;
+  padding: 10px;
+  overflow: hidden;
+
+}
+.fontfamily{
+ font-family: cursive;
+ 
+  font-weight: bold;  
+  text-align: start;       /* change page 2 font for heading*/
+  
+}
+.fontfamily2{
+  font-family: "Source Sans Pro", "Arial", sans-serif;       /* change page 2 font paragraph*/
+  font-weight:500;
+  text-align: start;
+
+}
+.page3{
+  height:800px;
+  width:100%;
+  overflow: hidden;         /*page 3 starts our chefs*/
+  border:0px solid black; 
+  position: relative;
+  background: transparent;
+  overflow: hidden;
+  
+
+}
+.chef1{
+  height:300px;
+  width:100%;                   /*page upper div */
+  border:0px solid black;
+  display: flex;
+  overflow: hidden;
+  
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 20px;
+  
+
+  position: relative;
+  background-image: url(./Components/@image/chefbanner.jpg);    /*to set background image on upper div */
+  background-size: cover;
+  background-position: center;
+  
+  z-index: 1;
+ 
+}
+
+
+.chef2{
+  
+  height:470px;
+  width:100%;                     /*page  bottom div */
+  border:0px solid black; 
+  margin-top:10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding:10px;
+  overflow: hidden;
+  
+  
+}
+.chefchild{
+  height: 100%;                /*page 3 upper div 4 childs and 2 bottom div */
+  width:100%;
+ margin-right: 5px;
+  border-right:4px solid white;
+  z-index: 2;
+  overflow: hidden;
+ 
+}
+#chefchild{
+  border: none;
+  overflow: hidden;
+
+}
+
+.fontfamilyshadow{
+ font-family: cursive;              /*change Chef banner font heading*/
+  margin-top:20px;
+  font-weight: bold; 
+  color:white;
+  text-shadow: 2px 2px 10px black;
+  overflow: hidden;
+
+}
+.fontfamilyshadow2{
+  font-family: "Source Sans Pro", "Arial", sans-serif;       /* change Chef banner font paragraph*/
+  font-weight:500;
+  color:white;
+  text-shadow: 2px 2px 10px black;
+  font-size: medium;
+  overflow: hidden;
+
+}
+
+.chefchild2{
+  height:100%;
+  width:100%;
+  border:0px solid black; 
+  margin:10px;                         /*change bottom div child*/
+  margin-left:80px;
+  margin-right:50px;
+  padding:10px;
+  overflow: hidden;
+}
+
+.roundborder{
+  border-top-left-radius: 30px ;                    /*make rounded border style to image */
+  border-bottom-right-radius: 30px;
+}
+
+.page4{
+  height:800px;
+  width:100%;
+  border:0px solid black;             /*page 4 layout*/
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  position:relative;
+  overflow: hidden;
+}
+.gallery1{
+  height:200px;
+  width:100%;
+  border:0px solid black;               /*page 4 upper div "our gallery"*/
+  margin:10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  
+  
+}
+.gallery2{
+  height:750px;
+  width:100%;
+  border:0px solid black;                       /*page 4 bottom div gallery images */
+  margin:10px;
+  display: flex;
+  justify-content: center;
+  padding-top:20px;
+  padding-left: 100px ;
+  padding-right:100px;
+  padding-bottom:30px;
+  overflow: hidden;
+  overflow: hidden;
+}
+.gallerychild{
+  height:100%;                          /*page 4 bottom div 3 childs*/
+  width:100%;
+  border:0px solid black; 
+  margin:10px;
+  border-top-left-radius: 30px ;                    /*make rounded border style to image */
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+  position: relative;
+  
+  
+  
+}
+.galleryimage{
+  transition: 1s;       /*to apply transition on zoom effect on gallery images*/
+}
+.galleryimage:hover{           
+  transform: scale(1.05);           /*to apply zoom effect on gallery images*/
+}
+
+
+.resbanner{
+  height:250px;
+  width:100%;
+  border:0px solid black; 
+  text-align: start;
+  padding-top:10px;
+  padding-left:115px;
+  overflow: hidden;
+
+  position: relative;
+  background-image: url(./Components/@image/reservationbanner.png);    /*to set background image on upper div on reservation banner*/
+  background-size: cover;
+  background-position: center;
+
+
+}
+.page5{
+  height:600px;
+  width:100%;
+  border:0px solid black; 
+  display: flex;                    /*page 5 starts here*/
+  padding: 10px;
+  overflow: hidden;
+  overflow: hidden;
+
+  
+}
+
+.reschild{
+  height:100%;
+  width:100%;
+  border:0px solid black;     /*form contains and reservation image*/
+  padding:0px;
+  text-align: start;
+  align-items: start;
+  overflow: hidden;
+  overflow: hidden;
+
+}
+#reschild1{
+  overflow: hidden;
+  margin-right:20px;      /*to add margin on reschild*/
+}
+.form-control{
+  font-family: "Source Sans Pro", "Arial", sans-serif;       /*to change font family of form input textbox texts*/
+  font-weight:500;
+  text-align: start;
+  overflow: hidden;
+}
+#bookbtn{
+  background: #000;
+  border: black;                  /*to change color of book btn of form*/
+  overflow: hidden;
+}
+.page6{
+  height: 800px;
+  width:100%;                   /*page 6 starts outlets*/
+  border:0px solid black; 
+  padding: 10px;
+  overflow: hidden;
+
+}
+.outletchild{
+  height:200px;
+  width:100%;
+  border:0px solid black; 
+  display: flex;
+  justify-content: center;             /*page 5 upper div our outlets*/
+  overflow: hidden;
+  align-items: center;
+  overflow: hidden;
+}
+.outletchild2{
+  height:550px;
+  width:100%;
+  border:0px solid black;       /*page 6 bottom div parent div*/
+  margin-top: 10px;
+  overflow: hidden;
+  display: flex;
+  padding-top:20px;
+  padding-left: 100px ;
+  padding-right:100px;
+  padding-bottom:30px;
+}
+.outletchild21{
+  height:100%;                         
+  width:100%;                        
+  border:0px solid black; 
+  margin:10px;
+  overflow: hidden;
+  border-top-left-radius: 30px ;                    /*page 6 bottom 3 div outlets child div */
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+  position: relative;
+  
+}
+.end{
+  height: 500px;
+  width:100%;
+  border:0px solid black; 
+  overflow: hidden;
+  background: rgb(46, 45, 45);           /*footer page start*/
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.end1{
+  height:350px;
+  width:100%;
+  overflow: hidden;
+  border:0px solid black; 
+ position: relative;
+ display: flex;                       /*foter uper div having 3 child page */
+ padding-top: 2px;
+ padding-bottom: 2px;
+ padding-left: 100px;
+ padding-right: 100px;
+
+}
+.end1child{
+  height:100%;
+  width:100%;                    /*upper div that 3 childs*/
+  border:0px solid black; 
+  overflow: hidden;
+  position: relative;
+  
+  text-align:center;
+  
+  
+  padding:20px;
+  
+  
+}
+.end2{
+  height: 50px;
+  width:100%;
+  overflow: hidden;
+  border:0px solid black;            /*footer bottom div pawan*/
+  margin-top: 10px;
+ 
+
+ text-align: center;
+
+
+}
+.form-control{
+  width:250px;                   /*to set gmail textbox size*/
+}
+.end1child1{
+  height:100%;
+  width:100%;                     /*upper div that 3 childs 3rd div*/
+  border:0px solid black; 
+  overflow: hidden;
+  position: relative;
+  padding-top: 20px;
+  text-align:center;
+  
+}
+
+
+.pawan{
+  color: grey;
+  font-family: "Source Sans Pro", "Arial", sans-serif;    /*Crafted with passion by Pawan*/
+  font-weight:600;
+  overflow: hidden;
+  
+  
+}
+.top{
+  overflow: hidden;
+  height: 30px;
+  width: 50px;
+  background: black;
+  color: white;
+  position: fixed;
+  left:20px;
+  top:700px;
+  z-index:3;                         /*create top button*/
+  border-radius: 10px;
+  
+  font-size: 25px;
+  font-weight: 300;
+  
+  
+ 
+  
+ 
+}
+a {
+  color: white !important; /* Force white color */
+  text-decoration: none; /* Remove underline */
+}
+
+a:visited, 
+a:hover, 
+a:focus, 
+a:active {
+  color: white !important; /* Keep text white in all states */
+  text-decoration: none;
+  outline: none; /* Remove focus outline */
+}
+
+.top:hover{
+  text-decoration: none;         /*set style on hover of top button*/
+  color:white;
+}
+.spinner-container {                /* Spinner.css */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;                    /* Full screen height */
+}
+
+.spinner-border {
+  width: 50px;
+  height: 50px;                /*spinner border loader*/
+}
+.toast{
+  position: fixed;
+  top: 200px;
+  right: 20px;               /*notification toast*/
+  z-index: 1050;
+}
+

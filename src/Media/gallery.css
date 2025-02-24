@@ -1,0 +1,29 @@
+@media(max-width:983px){
+    .page4{
+        height: 600px;
+        }
+    }
+@media(max-width:720px){
+    .page4{
+        height: 400px;
+    }
+}
+@media(max-width:640px){
+    #gallery1{
+        height: 100px;
+    }
+    div.gallery2{
+        height: 250px;
+        margin: 0px;
+        
+    }
+    .gallery2{
+        width: 400px;
+        padding: 10px;
+        
+    }
+
+    h2.fontfamily{
+        font-size: medium;
+    }
+}
