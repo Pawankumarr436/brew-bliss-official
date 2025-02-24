@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/brew-bliss-official/static/css/main.c300c00c.css",
+    "main.js": "/brew-bliss-official/static/js/main.a1f51926.js",
+    "static/js/453.64512fd7.chunk.js": "/brew-bliss-official/static/js/453.64512fd7.chunk.js",
+    "static/media/chefbanner.jpg": "/brew-bliss-official/static/media/chefbanner.8fad1f1e887d3930f0a0.jpg",
+    "static/media/reservationbanner.png": "/brew-bliss-official/static/media/reservationbanner.f1e036a41b5c71163839.png",
+    "static/media/cafebanner.jpg": "/brew-bliss-official/static/media/cafebanner.c1018187c56279e84b8a.jpg",
+    "static/media/resbookimage.jpg": "/brew-bliss-official/static/media/resbookimage.ff1b4fc1bf3fc0ce9213.jpg",
+    "static/media/biharcafe.jpeg": "/brew-bliss-official/static/media/biharcafe.6c50ff2d5246adcebb42.jpeg",
+    "static/media/delhicafe.jpeg": "/brew-bliss-official/static/media/delhicafe.5e05d213a6f2501f6123.jpeg",
+    "static/media/chefimage.webp": "/brew-bliss-official/static/media/chefimage.34b3c118baf9b85b2504.webp",
+    "static/media/kolkatacafe.jpeg": "/brew-bliss-official/static/media/kolkatacafe.abe5d1af55180f55899c.jpeg",
+    "static/media/ambiencegallery.jpeg": "/brew-bliss-official/static/media/ambiencegallery.ce103ce533103c32beb1.jpeg",
+    "static/media/foodgallery.jpeg": "/brew-bliss-official/static/media/foodgallery.436a2a13f1489a0f2515.jpeg",
+    "static/media/aboutimage.jpg": "/brew-bliss-official/static/media/aboutimage.88e2460a71eefa451af4.jpg",
+    "static/media/drinkgallery.jpeg": "/brew-bliss-official/static/media/drinkgallery.d5182761da74db98da82.jpeg",
+    "static/media/cafelogo.png": "/brew-bliss-official/static/media/cafelogo.42d90fdfa6b5d627561e.png",
+    "static/media/drink.png": "/brew-bliss-official/static/media/drink.dda83ac053fb12b7a98f.png",
+    "static/media/cuisine.png": "/brew-bliss-official/static/media/cuisine.d44e341858984f2be007.png",
+    "static/media/outlet.png": "/brew-bliss-official/static/media/outlet.613ebe6e992694ac908a.png",
+    "static/media/ambience.png": "/brew-bliss-official/static/media/ambience.f75b0800b548067d4aba.png",
+    "static/media/gallery.png": "/brew-bliss-official/static/media/gallery.d37c83e6869edfb1dbfd.png",
+    "static/media/menu.png": "/brew-bliss-official/static/media/menu.2e9c967540bead7f2c7f.png",
+    "static/media/clock.png": "/brew-bliss-official/static/media/clock.7468ca31626c94bc1dc3.png",
+    "static/media/vibe.png": "/brew-bliss-official/static/media/vibe.5d4e237041e5ee77a70e.png",
+    "static/media/gps.png": "/brew-bliss-official/static/media/gps.6a04ac9b0ed19a608e1d.png",
+    "static/media/reservation.png": "/brew-bliss-official/static/media/reservation.8c3c462261d1535c4a6f.png",
+    "index.html": "/brew-bliss-official/index.html",
+    "main.c300c00c.css.map": "/brew-bliss-official/static/css/main.c300c00c.css.map",
+    "main.a1f51926.js.map": "/brew-bliss-official/static/js/main.a1f51926.js.map",
+    "453.64512fd7.chunk.js.map": "/brew-bliss-official/static/js/453.64512fd7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c300c00c.css",
+    "static/js/main.a1f51926.js"
+  ]
+}
