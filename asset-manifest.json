@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/brew-bliss-official/static/css/main.c300c00c.css",
+    "main.css": "/brew-bliss-official/static/css/main.ad700e46.css",
     "main.js": "/brew-bliss-official/static/js/main.a1f51926.js",
     "static/js/453.64512fd7.chunk.js": "/brew-bliss-official/static/js/453.64512fd7.chunk.js",
     "static/media/chefbanner.jpg": "/brew-bliss-official/static/media/chefbanner.8fad1f1e887d3930f0a0.jpg",
@@ -27,12 +27,12 @@
     "static/media/gps.png": "/brew-bliss-official/static/media/gps.6a04ac9b0ed19a608e1d.png",
     "static/media/reservation.png": "/brew-bliss-official/static/media/reservation.8c3c462261d1535c4a6f.png",
     "index.html": "/brew-bliss-official/index.html",
-    "main.c300c00c.css.map": "/brew-bliss-official/static/css/main.c300c00c.css.map",
+    "main.ad700e46.css.map": "/brew-bliss-official/static/css/main.ad700e46.css.map",
     "main.a1f51926.js.map": "/brew-bliss-official/static/js/main.a1f51926.js.map",
     "453.64512fd7.chunk.js.map": "/brew-bliss-official/static/js/453.64512fd7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c300c00c.css",
+    "static/css/main.ad700e46.css",
     "static/js/main.a1f51926.js"
   ]
 }
